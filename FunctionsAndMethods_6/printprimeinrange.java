@@ -16,17 +16,14 @@ public class printprimeinrange{
     }
     public static void checkall(int a){
         for(int i = 2 ; i<=a ; i++){
-          if(prime(i)){
+          if(prime(i) == true){ 
             System.out.print(i + " ");
 
           }
            
         }
-
-
         }
     
-
     public static void main(String args[]){
         checkall(33);
 
