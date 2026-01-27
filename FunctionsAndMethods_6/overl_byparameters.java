@@ -10,7 +10,7 @@ public class overl_byparameters{
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println(sum(4,5));
+        System.out.println(sum(4,5));  //input lekar bhi hum kr sakte hain
         System.out.println(sum(4,3,2));
 
 
