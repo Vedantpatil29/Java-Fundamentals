@@ -23,8 +23,8 @@ public class Binary_Search{
     }
 
     public static void main(String args[]){
-        int numbers[] = {2,4,6,8,10,12,14};
-        int key = 6;
+        int numbers[] = {2,4,6,8,10,12,};
+        int key = 10;
         int ans = binarysearch(numbers , key);
 
         if(ans == -1){
