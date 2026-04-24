@@ -9,9 +9,10 @@ public class q2{
 
         if((a%2)==0){
             System.out.println("number " + a + " is even"); //see the space in como is included after number i kept space so that space is not ignored and then give + sign
+       }
         else {
             System.out.println("number " + a + " is odd");
         }
 
     }
-}
+    }

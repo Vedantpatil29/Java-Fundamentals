@@ -3,7 +3,7 @@ public class Reverse{
     public static void reverse(int numbers[]){
         int first = 0 , last = numbers.length-1;
 
-        while(first<last){  //here if we do first <= last no need same number will get no need
+        while(first<last){ //here if we do first <= last no need same number will get no need
            int temp = numbers[last];
            numbers[last] = numbers[first];
            numbers[first] = temp;

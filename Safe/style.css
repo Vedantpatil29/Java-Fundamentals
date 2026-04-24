@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #000, #222);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #00ffcc;
+}
+
+button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+}
+
+.sos {
+  background: red;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
